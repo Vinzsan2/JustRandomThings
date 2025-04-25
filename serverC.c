@@ -26,7 +26,7 @@ int main(){
 
   bind(sockfd,(struct sockaddr *)&server_addr,sizeof(server_addr));
 
-  listen(sockfd,1);
+  listen(sockfd,5);
 
   client_fd = accept(sockfd,(struct sockaddr *)&client_addr,&addr_len);
 
