@@ -1,6 +1,7 @@
 #ifdef __linux
 
 #define _POSIX_C_SOURCE 200809L
+#define _GNU_SOURCE
 // For Sigaction 64 bit
 #include <stdio.h>
 #include <unistd.h> 
